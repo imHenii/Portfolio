@@ -1,0 +1,164 @@
+/* Add a new class for the smaller logo */
+.Small-logo {
+  height: 125px; /* Adjust the height as needed */
+  width: 125x; /* Automatically adjust width to maintain aspect ratio */
+}
+
+/* Default font family */
+body {
+  font-family: Verdana, sans-serif;
+}
+
+/* Center-align text globally */
+.App {
+  text-align: center;
+  overflow-y: scroll;
+  height: 100vh;
+}
+
+/* Header styling */
+.App-header {
+  background-image: url('Henry.jpg');
+  background-color: #363636;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  color: rgb(83, 83, 83);
+  background-position: top right;
+  font-size: 22px;
+}
+
+/* Top-left navigation */
+.top-left {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  font-size: 24px;
+  color: rgb(83, 83, 83);
+}
+
+/* Tabs styling */
+.tabs {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  color: rgb(83, 83, 83);
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.tabs li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.tabs li a {
+  color: rgb(83, 83, 83);
+  text-decoration: none;
+}
+
+.tabs li a:hover {
+  text-decoration: underline;
+}
+
+/* Top-right navigation */
+.top-right {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+/* Social media icons */
+.linkedin,
+.github,
+.email {
+  width: 30px; /* Reduce the size of the social media icons */
+  height: auto;
+  margin-left: 10px;
+  margin-right: 20px;
+}
+
+/* Paragraph styling */
+.paragraph {
+  color: rgb(83, 83, 83);
+  font-size: 20px;
+  font-family: verdana;
+}
+
+.About-Me-Tab {
+  color: rgb(95, 95, 95);
+  font-size: 50px;
+  font-weight: bold;
+}
+
+/* Resume button */
+.Resume-Button {
+  font-size: 25px;
+  padding: 10px 20px;
+  border: none;
+  background-color: rgb(61, 61, 61);
+  color: white;
+  cursor: pointer;
+  display: center;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  font-family: verdana;
+}
+
+/* Download icon */
+.Download-Icon {
+  width: 30px;
+  height: 25px;
+  margin-right: 10px;
+}
+
+/* Resume section */
+.Resume {
+  background-color: rgb(156, 185, 196);
+  margin-top: 30px;
+}
+
+/* Resume tab */
+.Resume-Tab {
+  color: #000000;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+/* Resume content */
+.Resume-Education,
+.Resume-Work {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+}
+
+/* Subtext styling */
+.subtext {
+  font-style: italic;
+  font-size: 18px;
+  margin-top: 5px;
+}
+
+/* Strong emphasis */
+.text strong {
+  font-weight: bold;
+}
+
+/* Spacing between sections */
+.Resume-Education,
+.Resume-Work {
+  margin-bottom: 50px;
+}
+
+/* Project styles */
+.Projects {
+  margin-bottom: 30px;
+}
+
+
